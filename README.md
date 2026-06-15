@@ -22,8 +22,8 @@ This project was developed as part of a Deep Learning group project. Constructio
 
 ---
 
-## 📊 Key Findings
-
+## 📊 Results
+![Results Dashboard](images/results.png)
 * Severe class imbalance was identified in the original dataset, where the person class contained significantly fewer instances than the helmet class.
 * Removing the person class improved model performance substantially:
 
