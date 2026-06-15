@@ -13,8 +13,9 @@ This project was developed as part of a Deep Learning group project. Using real 
 
 **Models Compared:**
 
-* YOLOv11n (baseline, 3 classes)
+* YOLOv11n (baseline, 3 classes) ->  YOLOv11n (refined, 2 classes)
 * YOLOv8m (refined, 2 classes)
+* YOLOv12n (refined, 2 classes)
 
 **Key Insight:** In safety monitoring, recall is often more important than accuracy. Missing a helmetless worker can have more serious consequences than generating a false alarm.
 
