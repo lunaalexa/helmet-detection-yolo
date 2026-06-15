@@ -3,7 +3,7 @@
 This project was developed as part of a Deep Learning group project. Construction sites often face challenges in continuously monitoring helmet compliance, as manual supervision can be inconsistent and difficult to scale. To address this problem, we developed a YOLO-based object detection system capable of automatically detecting whether workers are wearing safety helmets, helping support safer construction environments.
 
 ## ✨ Project Overview
-
+![Results Dashboard](Data-Preview.jfif)
 **Goal:** Detect and classify workers into two safety-related categories:
 
 * Helmet (worker wearing a safety helmet)
@@ -24,6 +24,8 @@ This project was developed as part of a Deep Learning group project. Constructio
 
 ## 📊 Results
 ![Results Dashboard](Evaluation-Metrics.png)
+![Results Dashboard](Confusion-Matrix.png)
+![Results Dashboard](Loss-Curve.png)
 * Severe class imbalance was identified in the original dataset, where the person class contained significantly fewer instances than the helmet class.
 * Removing the person class improved model performance substantially:
 
