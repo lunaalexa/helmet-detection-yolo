@@ -23,9 +23,6 @@ This project was developed as part of a Deep Learning group project. Constructio
 ---
 
 ## 📊 Results
-![Results Dashboard](Evaluation-Metrics.png)
-![Results Dashboard](Confusion-Matrix.png)
-![Results Dashboard](Loss-Curve.png)
 * Severe class imbalance was identified in the original dataset, where the person class contained significantly fewer instances than the helmet class.
 * Removing the person class improved model performance substantially:
 
@@ -38,7 +35,9 @@ This project was developed as part of a Deep Learning group project. Constructio
   * mAP@50: **92.3%**
   * mAP@50-95: **56.6%**
 * Dataset refinement contributed more to performance improvement than switching to newer YOLO architectures.
-
+![Results Dashboard](Evaluation-Metrics.png)
+![Results Dashboard](Confusion-Matrix.png)
+![Results Dashboard](Loss-Curve.png)
 ---
 
 ## 💡 What I Learned
